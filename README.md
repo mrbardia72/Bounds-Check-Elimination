@@ -19,8 +19,8 @@ go run -gcflags="-d=ssa/check_bce/debug=1" 00.go
 ```
 
 ## Common patterns
-* Loop upper bound is known
-* Contiguous slice access
-* Slice accesses offset from a base index
-* Iterate multiple slices with known upper bound
-* Slice range can be derived
+* Loop upper bound is known (02.go)
+* Contiguous slice access (03.go)
+* Slice accesses offset from a base index (04.go)
+* Iterate multiple slices with known upper bound (05.go)
+* Slice range can be derived (06.go)
